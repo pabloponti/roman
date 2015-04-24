@@ -1,0 +1,146 @@
+/*
+Theme Name: Desarrollado
+Theme URI: http://catchthemes.com/themes/catch-base
+Author: PontyDG
+Author URI: http://pontydg.com
+Description: Catch Base Child Theme
+Version: 1.0
+License: GNU General Public License, version 3 (GPLv3)
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+Tags: responsive, translation-ready
+Text Domain: catchbase
+Template: catch-base
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLA DE CONTENIDOS:
+----------------------------------------------------------------
+1. Wordpress
+2. Catch Base (Theme)
+3. WP Listings (Plugin Propiedades)
+4. Search & Filter (Plugin)
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+1. Wordpress
+--------------------------------------------------------------*/
+/* ocultar titulo Inicio */
+#post-33 .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+2. Catch Base (Theme)
+--------------------------------------------------------------*/
+/* elements */
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+/* slider entry */
+#feature-slider .entry-container {
+	opacity: 0;
+}
+#feature-slider:hover .entry-container {
+	opacity: 1;
+}
+#feature-slider .cycle-pager span {
+    color: rgba(255, 255, 255, 0.5);
+}
+#feature-slider .cycle-pager span.cycle-pager-active { 
+    color: #fff;
+}
+#feature-slider .entry-container:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* featured content */
+#featured-content p,
+#featured-content ul,
+#promotion-message .right {
+  display: none;
+}
+#promotion-message .left {
+	max-width: 100%;
+}
+#featured-content .entry-title {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+3. WP Listings (Plugin Propiedades)
+--------------------------------------------------------------*/
+/* listings overlay */
+.archive .listing-wrap span.listing-status.venta,
+.wp-listings-shortcode .listing-wrap span.listing-status.venta,
+.widget .listing-wrap span.listing-status.venta,
+.wplistings-single-listing .listing-image-wrap span.listing-status.venta {
+	background: #53c331;
+	background: rgba(83, 195, 49, 0.80);
+}
+.archive .listing-wrap span.listing-status.vendido,
+.wp-listings-shortcode .listing-wrap span.listing-status.vendido,
+.widget .listing-wrap span.listing-status.vendido,
+.wplistings-single-listing .listing-image-wrap span.listing-status.vendido {
+	background: #be1d2c;
+	background: rgba(190, 29, 44, 0.80);
+}
+.archive .listing-wrap span.listing-status.alquiler,
+.wp-listings-shortcode .listing-wrap span.listing-status.alquiler,
+.widget .listing-wrap span.listing-status.alquiler,
+.wplistings-single-listing .listing-image-wrap span.listing-status.alquiler {
+	background: #24a4ea;
+	background: rgba(36, 164, 234, 0.80);
+}
+.archive .listing-wrap span.listing-status.alquilado,
+.wp-listings-shortcode .listing-wrap span.listing-status.alquilado,
+.widget .listing-wrap span.listing-status.alquilado,
+.wplistings-single-listing .listing-image-wrap span.listing-status.alquilado {
+	background: #db8323;
+	background: rgba(219, 131, 35, 0.80);
+}
+/* textos minuscula */
+.wplistings-single-listing td.label {
+	padding-left: 5px;
+	font-size: 14px;
+	text-transform: none;
+}
+.listing-navigation .meta-nav {
+	color: #767676;
+	display: block;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 2;
+	text-transform: none;
+}
+/* single listing template */
+.listing {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+/*--------------------------------------------------------------
+4. Search & Filter (Plugin)
+--------------------------------------------------------------*/
+/* espacio entre items */
+.widget-area .searchandfilter li,
+.widget-area .searchandfilter p {
+	padding-bottom: 20px;
+}
+.searchandfilter h4 {
+	margin:0 0 5px 0;
+	font-size:16px;
+}
+/* formato y tamaño select */
+.widget-area .searchandfilter li select {
+	padding: 7px;
+	border-radius: 3px;
+	width: 100%;
+	font-size: 16px;
+}
+/* tamaño input */
+.widget-area .searchandfilter li input {
+	font-size: 16px;
+}

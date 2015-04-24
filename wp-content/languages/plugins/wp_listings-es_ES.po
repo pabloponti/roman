@@ -1,0 +1,686 @@
+# Copyright (C) 2015 Agent Evolution
+# This file is distributed under the GNU General Public License v2.0 (or later).
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Listings 1.1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/plugin\n"
+"POT-Creation-Date: 2015-02-17 01:37:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-18 01:25-0300\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-featured-listings-widget.php:11
+msgid "Display grid-style featured listings"
+msgstr "Mostrar Anuncios Destacados en estilo rejilla"
+
+#: includes/class-featured-listings-widget.php:13
+msgid "WP Listings - Featured Listings"
+msgstr "WP Listings - Anuncios Destacados"
+
+#: includes/class-featured-listings-widget.php:127
+#: includes/class-listings.php:116 includes/class-listings.php:117
+#: includes/views/archive-listing.php:58
+msgid "View Listing"
+msgstr "Ver Propiedad"
+
+#: includes/class-featured-listings-widget.php:174
+#: includes/class-listings-search-widget.php:76
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/class-featured-listings-widget.php:182
+msgid "Image Size"
+msgstr "Tamaño de Imagen"
+
+#: includes/class-featured-listings-widget.php:196
+msgid "How many results should be returned?"
+msgstr "¿Cuántos resultados deben ser mostrados?"
+
+#: includes/class-featured-listings-widget.php:204
+msgid "All Taxonomies and Terms"
+msgstr "Todas las Taxonomías y Términos"
+
+#: includes/class-listing-template.php:61
+msgid "Single Listing Template"
+msgstr "Plantilla individual"
+
+#: includes/class-listing-template.php:69
+msgid "Listing Template"
+msgstr "Plantilla de Inmueble"
+
+#: includes/class-listing-template.php:71
+msgid "Default"
+msgstr "Predeterminado"
+
+#: includes/class-listing-template.php:74
+msgid ""
+"You can use custom templates for single listings that might have additional "
+"features or custom layouts by adding them to your theme directory. If so, you "
+"will see them above."
+msgstr ""
+"Puedes utilizar plantillas personalizadas para anuncios individuales que "
+"podrían tener características adicionales o diseños personalizados "
+"añadiéndolos al directorio de tu tema. Si es así, verás arriba."
+
+#: includes/class-listings-search-widget.php:11
+msgid "Display listings search dropdown"
+msgstr "Mostrar búsqueda de anuncios desplegable"
+
+#: includes/class-listings-search-widget.php:13
+msgid "WP Listings - Search"
+msgstr "WP Listings - Buscador"
+
+#: includes/class-listings-search-widget.php:20
+#: includes/class-listings-search-widget.php:68 includes/class-listings.php:118
+msgid "Search Listings"
+msgstr "Buscar Propiedades"
+
+#: includes/class-listings-search-widget.php:78
+msgid "Include these taxonomies in the search widget"
+msgstr "Incluir estas taxonomías en el widget de búsqueda"
+
+#: includes/class-listings-search-widget.php:91
+msgid "Button Text:"
+msgstr "Texto del botón:"
+
+#: includes/class-listings.php:33
+msgid "Price:"
+msgstr "Precio:"
+
+#: includes/class-listings.php:34
+msgid "Address:"
+msgstr "Dirección:"
+
+#: includes/class-listings.php:35
+msgid "City:"
+msgstr "Ciudad:"
+
+#: includes/class-listings.php:36
+msgid "State:"
+msgstr "Región:"
+
+#: includes/class-listings.php:37
+msgid "ZIP:"
+msgstr "Código Postal:"
+
+#: includes/class-listings.php:38
+msgid "MLS #:"
+msgstr "SLM #:"
+
+#: includes/class-listings.php:39
+msgid "Open House Time & Date:"
+msgstr "Open House Hora y Fecha:"
+
+#: includes/class-listings.php:42
+msgid "Year Built:"
+msgstr "Año de Construcción:"
+
+#: includes/class-listings.php:43
+msgid "Floors:"
+msgstr "Pisos:"
+
+#: includes/class-listings.php:44
+msgid "Square Feet:"
+msgstr "Metros Cuadrados:"
+
+#: includes/class-listings.php:45
+msgid "Lot Square Feet:"
+msgstr "Metros Cuadrados del Lote:"
+
+#: includes/class-listings.php:46
+msgid "Bedrooms:"
+msgstr "Habitaciones:"
+
+#: includes/class-listings.php:47
+msgid "Bathrooms:"
+msgstr "Baños:"
+
+#: includes/class-listings.php:48
+msgid "Pool:"
+msgstr "Pileta:"
+
+#: includes/class-listings.php:91
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-listings.php:109
+msgid "Listings"
+msgstr "Propiedades"
+
+#: includes/class-listings.php:110
+msgid "Listing"
+msgstr "Propiedad"
+
+#: includes/class-listings.php:111
+msgid "Add New"
+msgstr "Añadir"
+
+#: includes/class-listings.php:112
+msgid "Add New Listing"
+msgstr "Añadir Propiedad"
+
+#: includes/class-listings.php:113 includes/views/create-tax.php:48
+#: includes/views/single-listing.php:368
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-listings.php:114
+msgid "Edit Listing"
+msgstr "Editar Propiedad"
+
+#: includes/class-listings.php:115
+msgid "New Listing"
+msgstr "Nueva Propiedad"
+
+#: includes/class-listings.php:119
+msgid "No listings found"
+msgstr "No se encontraron propiedades"
+
+#: includes/class-listings.php:120
+msgid "No listings found in Trash"
+msgstr "Ninguna propiedad encontrada en la papelera."
+
+#: includes/class-listings.php:138
+msgid "Property Details"
+msgstr "Detalles de la Propiedad"
+
+#: includes/class-listings.php:139
+msgid "Additional Details"
+msgstr "Detalles Adicionales"
+
+#. Author of the plugin/theme
+msgid "Agent Evolution"
+msgstr ""
+
+#: includes/class-listings.php:197
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/class-listings.php:198
+msgid "Listing Title"
+msgstr "Título"
+
+#: includes/class-listings.php:199
+msgid "Details"
+msgstr "Detalles"
+
+#: includes/class-listings.php:200
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/class-taxonomies.php:42
+msgid "Register Taxonomies"
+msgstr "Registrar Taxonomías"
+
+#: includes/class-taxonomies.php:43 includes/class-taxonomies.php:427
+#: includes/views/reorder-tax.php:17 includes/views/reorder-tax.php:40
+msgid "Reorder Taxonomies"
+msgstr "Ordenar Taxonomías"
+
+#: includes/class-taxonomies.php:95 includes/class-taxonomies.php:97
+#: includes/class-taxonomies.php:99 includes/class-taxonomies.php:167
+#: includes/class-taxonomies.php:169 includes/class-taxonomies.php:171
+msgid "Please complete all required fields."
+msgstr "Por favor, completa todos los campos requeridos."
+
+#: includes/class-taxonomies.php:108 includes/class-taxonomies.php:180
+#: includes/class-taxonomies.php:248 includes/class-taxonomies.php:281
+#: includes/class-taxonomies.php:314 includes/class-taxonomies.php:347
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: includes/class-taxonomies.php:109 includes/class-taxonomies.php:181
+#: includes/class-taxonomies.php:249 includes/class-taxonomies.php:282
+#: includes/class-taxonomies.php:315 includes/class-taxonomies.php:348
+msgid "Popular %s"
+msgstr "%s Populares"
+
+#: includes/class-taxonomies.php:110 includes/class-taxonomies.php:182
+#: includes/class-taxonomies.php:250 includes/class-taxonomies.php:283
+#: includes/class-taxonomies.php:316 includes/class-taxonomies.php:349
+msgid "All %s"
+msgstr ""
+
+#: includes/class-taxonomies.php:111 includes/class-taxonomies.php:183
+#: includes/class-taxonomies.php:251 includes/class-taxonomies.php:284
+#: includes/class-taxonomies.php:317 includes/class-taxonomies.php:350
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-taxonomies.php:112 includes/class-taxonomies.php:184
+#: includes/class-taxonomies.php:252 includes/class-taxonomies.php:285
+#: includes/class-taxonomies.php:318 includes/class-taxonomies.php:351
+msgid "Update %s"
+msgstr "Actualizar"
+
+#: includes/class-taxonomies.php:113 includes/class-taxonomies.php:185
+#: includes/class-taxonomies.php:253 includes/class-taxonomies.php:286
+#: includes/class-taxonomies.php:319 includes/class-taxonomies.php:352
+msgid "Add New %s"
+msgstr "Añadir"
+
+#: includes/class-taxonomies.php:114 includes/class-taxonomies.php:186
+#: includes/class-taxonomies.php:254 includes/class-taxonomies.php:287
+#: includes/class-taxonomies.php:320 includes/class-taxonomies.php:353
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-taxonomies.php:115 includes/class-taxonomies.php:187
+#: includes/class-taxonomies.php:255 includes/class-taxonomies.php:288
+#: includes/class-taxonomies.php:321 includes/class-taxonomies.php:354
+msgid "Add or Remove %s"
+msgstr ""
+
+#: includes/class-taxonomies.php:116 includes/class-taxonomies.php:188
+#: includes/class-taxonomies.php:256 includes/class-taxonomies.php:289
+#: includes/class-taxonomies.php:322 includes/class-taxonomies.php:355
+msgid "Choose from the most used %s"
+msgstr "%s más utilizadas"
+
+#: includes/class-taxonomies.php:145 includes/class-taxonomies.php:153
+msgid ""
+"Nice try, partner. But that taxonomy doesn't exist. Click back and try again."
+msgstr ""
+"Buen intento, compañero. Pero no existe esa taxonomía. Haz clic en atrás y "
+"vuelve a intentarlo."
+
+#: includes/class-taxonomies.php:215
+msgid "New taxonomy successfully created!"
+msgstr "Nueva taxonomía creada!"
+
+#: includes/class-taxonomies.php:220
+msgid "Taxonomy successfully edited!"
+msgstr "Taxonomía editada correctamente!"
+
+#: includes/class-taxonomies.php:225
+msgid "Taxonomy successfully deleted."
+msgstr "Taxonomía borrada correctamente."
+
+#: includes/class-taxonomies.php:238 includes/class-taxonomies.php:239
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-taxonomies.php:259
+msgid "status"
+msgstr "estado"
+
+#: includes/class-taxonomies.php:271
+msgid "Property Types"
+msgstr "Tipos de Propiedades"
+
+#: includes/class-taxonomies.php:272
+msgid "Property Type"
+msgstr "Tipo de Propiedad"
+
+#: includes/class-taxonomies.php:292
+msgid "property-types"
+msgstr "tipos-de-propiedades"
+
+#: includes/class-taxonomies.php:304
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: includes/class-taxonomies.php:305
+msgid "Location"
+msgstr "Ubicación"
+
+#: includes/class-taxonomies.php:325
+msgid "locations"
+msgstr "ubicaciónes"
+
+#: includes/class-taxonomies.php:337
+msgid "Features"
+msgstr "Características"
+
+#: includes/class-taxonomies.php:338
+msgid "Feature"
+msgstr "Característica"
+
+#: includes/class-taxonomies.php:358
+msgid "features"
+msgstr "características"
+
+#: includes/class-taxonomies.php:429
+msgid ""
+"Note: This will only allow you to reorder user-created taxonomies. Default "
+"taxonomies cannot be reordered (Status, Locations, Property Types, Features)."
+msgstr ""
+"Nota: Esto sólo permitirá que reordenar las taxonomías creados por el "
+"usuario. Las taxonomías predeterminado no se puede reordenar (estado, "
+"ubicaciones, tipos de propiedad, características)."
+
+#: includes/class-taxonomies.php:441
+msgid "Drag and Drop to reorder"
+msgstr "Arrastrar y Soltar para reordenar"
+
+#: includes/helpers.php:18
+msgid "View all post filed under %s"
+msgstr ""
+
+#: includes/helpers.php:58
+msgid "Listing navigation"
+msgstr ""
+
+#: includes/helpers.php:62
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Publicado el</span>%title"
+
+#: includes/helpers.php:64
+msgid "<span class=\"meta-nav\">Previous Listing</span>%title"
+msgstr "<span class=\"meta-nav\">← Anterior</span>%title"
+
+#: includes/helpers.php:65
+msgid "<span class=\"meta-nav\">Next Listing</span>%title"
+msgstr "<span class=\"meta-nav\">Siguiente →</span>%title"
+
+#: includes/helpers.php:108
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: includes/helpers.php:109
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: includes/helpers.php:116
+msgid "Listings navigation"
+msgstr ""
+
+#: includes/shortcodes.php:98
+msgid "Open House"
+msgstr ""
+
+#: includes/shortcodes.php:106
+msgid "Beds"
+msgstr "Habitaciones"
+
+#: includes/shortcodes.php:106
+msgid "Baths"
+msgstr "Baños"
+
+#: includes/shortcodes.php:106
+msgid "Sq ft"
+msgstr "m²"
+
+#: includes/views/create-tax.php:2
+msgid "Listing Taxonomies"
+msgstr "Registrar Taxonomías"
+
+#: includes/views/create-tax.php:9
+msgid "Current Listing Taxonomies"
+msgstr "Todas las Taxonomías"
+
+#: includes/views/create-tax.php:13 includes/views/create-tax.php:21
+#: includes/views/create-tax.php:76 includes/views/edit-tax.php:19
+msgid "ID"
+msgstr "ID"
+
+#: includes/views/create-tax.php:14 includes/views/create-tax.php:22
+#: includes/views/create-tax.php:88 includes/views/edit-tax.php:33
+msgid "Singular Name"
+msgstr "Nombre Singular"
+
+#: includes/views/create-tax.php:15 includes/views/create-tax.php:23
+#: includes/views/create-tax.php:82 includes/views/edit-tax.php:27
+msgid "Plural Name"
+msgstr "Nombre Plural"
+
+#: includes/views/create-tax.php:49
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/views/create-tax.php:70
+msgid "Add New Listing Taxonomy"
+msgstr "Añadir Taxonomía"
+
+#: includes/views/create-tax.php:78
+msgid ""
+"The unique ID is used to register the taxonomy.<br />(no spaces, underscores, "
+"or special characters)"
+msgstr ""
+"El ID (identificador único) se utiliza para registrar la taxonomía.<br />(no "
+"usar espacios, guiones bajos, o caracteres especiales)"
+
+#: includes/views/create-tax.php:84 includes/views/edit-tax.php:29
+msgid "Example: \"Property Types\" or \"Locations\""
+msgstr "Ejemplo: \"Tipos de Propiedades\" o \"Ubicaciones\""
+
+#: includes/views/create-tax.php:90 includes/views/edit-tax.php:35
+msgid "Example: \"Property Type\" or \"Location\""
+msgstr "Ejemplo: \"Tipo de Propiedad\" o \"Ubicación\""
+
+#: includes/views/create-tax.php:93
+msgid "Add New Taxonomy"
+msgstr "Añadir Taxonomía"
+
+#: includes/views/edit-tax.php:7
+msgid ""
+"Nice try, partner. But that taxonomy doesn't exist or can't be edited. Click "
+"back and try again."
+msgstr "No existe esa taxonomía. Haz clic en atrás y vuelve a intentarlo."
+
+#: includes/views/edit-tax.php:12
+msgid "Edit Taxonomy"
+msgstr "Editar Taxonomía"
+
+#: includes/views/edit-tax.php:23
+msgid "The unique ID is used to register the taxonomy. (cannot be changed)"
+msgstr ""
+"El ID único se utiliza para registrar la taxonomía. (no se puede cambiar)"
+
+#: includes/views/edit-tax.php:40
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/views/listing-details-metabox.php:26
+msgid ""
+"<p><label>Custom Listing Text (custom text to display as overlay on featured "
+"listing widget)<br />"
+msgstr ""
+"<p><label>Texto personalizado:<br /> <i>Texto breve, se muestra sobre la "
+"miniatura de la foto. Si se deja vacío muestra el Tipo de Propiedad.</i><br />"
+
+#: includes/views/listing-details-metabox.php:27
+msgid ""
+"<input type=\"text\" name=\"wp_listings[_listing_text]\" value=\"%s\" /></"
+"label></p>"
+msgstr ""
+
+#: includes/views/listing-details-metabox.php:33
+msgid "<p><label>Photo Gallery (use Add Media button to insert Gallery):<br />"
+msgstr ""
+"<p><label>GALERÍA DE FOTOS (utilizar el botón Añadir objeto para insertar "
+"Galería):<br />"
+
+#: includes/views/listing-details-metabox.php:54
+msgid ""
+"<p><label>Enter Video or Virtual Tour Embed Code (<a href=\"https://wordpress."
+"org/plugins/jetpack/\" target=\"_blank\" rel=\"nofollow\">Jetpack</a> offers "
+"several <a href=\"http://jetpack.me/support/shortcode-embeds/\" target="
+"\"_blank\" rel=\"nofollow\">video shortcodes</a>.):<br />"
+msgstr ""
+"<p><label>Ingrese vídeo o código incrustado de Tour Virtual (<a href="
+"\"https://wordpress.org/plugins/jetpack/\" target=\"_blank\" rel=\"nofollow"
+"\">Jetpack </a>ofrece varios <a href=\"http://jetpack.me/support/shortcode-"
+"embeds/\" target=\"_blank\" rel=\"nofollow\">códigos-cortos de vídeo</a>.):"
+"<br />"
+
+#: includes/views/listing-details-metabox.php:55
+msgid ""
+"<textarea name=\"wp_listings[_listing_video]\" rows=\"5\" cols=\"18\" style="
+"\"%s\">%s</textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-details-metabox.php:61
+msgid ""
+"<p><label>Enter Map Embed Code or shortcode from Map plugin (such as <a href="
+"\"http://jetpack.me/support/shortcode-embeds/\" target=\"_blank\" rel="
+"\"nofollow\">Jetpack Shortcodes</a>, <a href=\"https://wordpress.org/plugins/"
+"simple-google-maps-short-code/\" target=\"_blank\" rel=\"nofollow\">Simple "
+"Google Maps Short Code</a> or <a href=\"https://wordpress.org/plugins/"
+"mappress-google-maps-for-wordpress/\" target=\"_blank\" rel=\"nofollow"
+"\">MapPress</a>):<br /><em>Recommend size: 660x300 (If possible, use 100% "
+"width, or your themes content width)</em><br />"
+msgstr ""
+"<p><label>Introduzca el Código de Mapa Incrustado o el código-corto de plugin "
+"de Mapa (como <a href=\"http://jetpack.me/support/shortcode-embeds/\" target="
+"\"_blank\" rel=\"nofollow\">Jetpack Shortcodes</a>, <a href=\"https://"
+"wordpress.org/plugins/simple-google-maps-short-code/\" target=\"_blank\" rel="
+"\"nofollow\">Simple Google Maps Short Code</a> o <a href=\"https://wordpress."
+"org/plugins/mappress-google-maps-for-wordpress/\" target=\"_blank\" rel="
+"\"nofollow\">MapPress</a>):<br /><em>Tamaño recomendado: 660x300 (Si es "
+"posible, utilizar el 100% del ancho, o el ancho de contenido de su tema)</"
+"em><br />"
+
+#: includes/views/listing-details-metabox.php:62
+msgid ""
+"<textarea name=\"wp_listings[_listing_map]\" rows=\"5\" cols=\"18\" style=\"%s"
+"\">%s</textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-details-metabox.php:68
+msgid ""
+"<p><label>If you use a Contact Form plugin, you may enter the Contact Form "
+"shortcode here. Otherwise, the single listing template will use a default "
+"contact form:<br />"
+msgstr ""
+"<p><label>Si utiliza un plugin de Formulario de Contacto, puede ingresar el "
+"código aquí. De lo contrario, la plantilla individual utilizará un formulario "
+"de contacto predeterminado:<br />"
+
+#: includes/views/listing-details-metabox.php:69
+msgid ""
+"<textarea name=\"wp_listings[_listing_contact_form]\" rows=\"1\" cols=\"18\" "
+"style=\"%s\">%s</textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-features-metabox.php:8
+msgid ""
+"<p><label>Home Summary (allows shortcodes):<br /><textarea name="
+"\"wp_listings[_listing_home_sum]\" rows=\"3\" cols=\"18\" style=\"%s\">%s</"
+"textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-features-metabox.php:15
+msgid ""
+"<p><label>Kitchen Summary (allows shortcodes):<br /><textarea name="
+"\"wp_listings[_listing_kitchen_sum]\" rows=\"3\" cols=\"18\" style=\"%s\">%s</"
+"textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-features-metabox.php:22
+msgid ""
+"<p><label>Living Room (allows shortcodes):<br /><textarea name="
+"\"wp_listings[_listing_living_room]\" rows=\"3\" cols=\"18\" style=\"%s\">%s</"
+"textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-features-metabox.php:29
+msgid ""
+"<p><label>Master Suite (allows shortcodes):<br /><textarea name="
+"\"wp_listings[_listing_master_suite]\" rows=\"3\" cols=\"18\" style=\"%s\">"
+"%s</textarea></label></p>"
+msgstr ""
+
+#: includes/views/listing-features-metabox.php:36
+msgid ""
+"<p><label>School and Neighborhood Info (allows shortcodes):<br /><textarea "
+"name=\"wp_listings[_listing_school_neighborhood]\" rows=\"5\" cols=\"18\" "
+"style=\"%s\">%s</textarea></label></p>"
+msgstr ""
+
+#: includes/views/single-listing.php:102
+msgid "View more <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ver más <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/views/single-listing.php:142
+msgid "Home Summary"
+msgstr "Resumen de la Casa"
+
+#: includes/views/single-listing.php:144
+msgid "Kitchen Summary"
+msgstr "Resumen de la Cocina"
+
+#: includes/views/single-listing.php:146
+msgid "Living Room"
+msgstr "Sala de Estar"
+
+#: includes/views/single-listing.php:148
+msgid "Master Suite"
+msgstr "Suite Principal"
+
+#: includes/views/single-listing.php:364
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: includes/views/single-listing.php:364
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: includes/views/single-listing.php:364
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: includes/views/wp-listings-settings.php:48
+msgid ""
+"<h2>Default State</h2><p>You can enter a default state that will "
+"automatically be output on template pages and widgets that show the state. "
+"When you are create a listing and leave the state field empty, the default "
+"entered below will be shown. You can override the default on each listing by "
+"entering a value into the state field.</p>"
+msgstr ""
+"<h2>Estado Predeterminado</h2><p>Usted puede ingresar en un estado "
+"predeterminado, que será automáticamente mostrado en las páginas de plantilla "
+"y widgets que muestran el estado. Cuando usted crea un anuncio y deja el "
+"campo en estado vacío, el valor predeterminado ingresado a continuación se "
+"mostrará. Puede reemplazar el valor predeterminado en cada listado "
+"introduciendo un valor en el campo de estado.</p>"
+
+#: includes/views/wp-listings-settings.php:53
+msgid ""
+"<h2>Default Number of Posts</h2><p>The default number of posts displayed on a "
+"listing archive page is 9. Here you can set a custom number. Enter <span "
+"style='color: #f00;font-weight: 700;'>-1</span> to display all listing posts."
+"<br /><em>If you have more than 20-30 posts, it's not recommended to show all "
+"or your page will load slow.</em></p>"
+msgstr ""
+"<h2>Número Predeterminado de Entradas</h2><p>l número predeterminado de "
+"entradas que aparecen en una página de listados de inmuebles es 9. Aquí puede "
+"establecer un número personalizado. Introduzca <span style='color: #f00;font-"
+"weight: 700;'>-1</span> para mostrar todas las entradas del listado.<br /"
+"><em>Si usted tiene más de 20 a 30 entradas, no es recomendable mostrar la "
+"totalidad o la página se cargará lento.</em></p>"
+
+#: includes/views/wp-listings-settings.php:60
+msgid "Save Settings"
+msgstr "Guardar Ajustes"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wp-listings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Creates a portable real estate listing management system. Designed to work "
+"with any theme using built-in templates."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://agentevolution.com"
+msgstr ""
