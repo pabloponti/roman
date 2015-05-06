@@ -201,7 +201,7 @@ function single_listing_post_content() {
 		?>
 
 		<div id="listing-contact" <?php if(!function_exists('aeprofiles_connected_agents_markup')) { echo 'style="width: 100%;"'; }; ?>>
-			<h4>Consultar</h4>
+			<h4>Consultar propiedad</h4>
 			<?php
 			if (get_post_meta( $post->ID, '_listing_contact_form', true) != '') {
 
@@ -249,8 +249,8 @@ function single_listing_post_content() {
 						if (!isset($emailTo) || ($emailTo == '') ){
 							$emailTo = get_option('admin_email');
 						}
-						$subject = 'Listing Inquiry from '.$name;
-						$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nListing: $listing \n\nURL: $url \n\nComments: $comments";
+						$subject = 'Consulta de inmueble de '.$name;
+						$body = "Nombre: $name \n\nEmail: $email \n\nTel: $phone \n\nInmueble: $listing \n\nURL: $url \n\nComentarios: $comments";
 						$headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 						wp_mail($emailTo, $subject, $body, $headers);
