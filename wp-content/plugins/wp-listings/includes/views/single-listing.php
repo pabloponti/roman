@@ -250,7 +250,7 @@ function single_listing_post_content() {
 							$emailTo = get_option('admin_email');
 						}
 						$subject = 'Consulta de inmueble de '.$name;
-						$body = "Nombre: $name \n\nEmail: $email \n\nTel: $phone \n\nInmueble: $listing \n\nURL: $url \n\nComentarios: $comments";
+						$body = "Nombre: $name \n\nEmail: $email \n\nTeléfono: $phone \n\nInmueble: $listing \n\nLink: $url \n\nConsulta: $comments";
 						$headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 						wp_mail($emailTo, $subject, $body, $headers);
